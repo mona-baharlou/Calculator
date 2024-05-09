@@ -17,8 +17,8 @@
         android:layout_marginBottom="8dp"
         android:maxLines="1"
         android:text="12.536"
-        android:textColor="?attr/colorOnPrimary"
         android:textAlignment="viewEnd"
+        android:textColor="?attr/colorOnPrimary"
         android:textSize="@dimen/textView_text_big" />
 
     <TextView
@@ -72,17 +72,36 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="?selectableItemBackground"
+                android:text="("
+                android:textColor="?attr/colorSecondary"
+                android:textSize="@dimen/button_text_size_small" />
+
+
+            <!--<Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?selectableItemBackground"
                 android:layoutDirection="rtl"
                 android:text=">"
                 android:textColor="?attr/colorSecondary"
                 android:textSize="@dimen/button_text_size_big" />
-
+-->
+            <!-- <Button
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:background="?selectableItemBackground"
+                 android:text="%"
+                 android:textColor="?attr/colorSecondary"
+                 android:textSize="@dimen/button_text_size_small" />
+ -->
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="?selectableItemBackground"
-                android:text="%"
+                android:text=")"
                 android:textColor="?attr/colorSecondary"
                 android:textSize="@dimen/button_text_size_small" />
 
@@ -230,14 +249,24 @@
             android:orientation="vertical"
             android:weightSum="4">
 
+            <!-- <Button
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:background="?selectableItemBackground"
+                 android:text="+/-"
+                 android:textColor="?attr/colorSecondary"
+                 android:textSize="@dimen/button_text_size_small" />
+ -->
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="?selectableItemBackground"
-                android:text="+/-"
+                android:layoutDirection="rtl"
+                android:text=">"
                 android:textColor="?attr/colorSecondary"
-                android:textSize="@dimen/button_text_size_small" />
+                android:textSize="@dimen/button_text_size_big" />
 
             <Button
                 android:layout_width="0dp"
