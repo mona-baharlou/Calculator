@@ -59,6 +59,7 @@
             android:weightSum="4">
 
             <Button
+                android:id="@+id/btn_Ac"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -68,6 +69,7 @@
                 android:textSize="@dimen/button_text_size_small" />
 
             <Button
+                android:id="@+id/btn_ParantezBaz"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -97,6 +99,7 @@
                  android:textSize="@dimen/button_text_size_small" />
  -->
             <Button
+                android:id="@+id/btn_ParantezBaste"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
