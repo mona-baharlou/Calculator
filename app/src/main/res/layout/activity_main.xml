@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txt_Expression"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
@@ -22,6 +23,7 @@
         android:textSize="@dimen/textView_text_big" />
 
     <TextView
+        android:id="@+id/txt_Result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
@@ -109,6 +111,7 @@
                 android:textSize="@dimen/button_text_size_small" />
 
             <Button
+                android:id="@+id/btn_Taqsim"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -127,6 +130,7 @@
             android:weightSum="4">
 
             <Button
+                android:id="@+id/btn_Seven"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -135,6 +139,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Eight"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -143,6 +148,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Nine"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -151,6 +157,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Zarb"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -169,6 +176,7 @@
             android:weightSum="4">
 
             <Button
+                android:id="@+id/btn_Four"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -177,6 +185,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Five"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -185,6 +194,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Six"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -193,6 +203,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Menha"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -211,6 +222,7 @@
             android:weightSum="4">
 
             <Button
+                android:id="@+id/btn_One"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -219,6 +231,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Two"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -227,6 +240,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Three"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -235,6 +249,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Jam"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -262,6 +277,7 @@
                  android:textSize="@dimen/button_text_size_small" />
  -->
             <Button
+                android:id="@+id/btn_Delete"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -272,6 +288,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Zero"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -280,6 +297,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
+                android:id="@+id/btn_Dot"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -293,6 +311,7 @@
                 android:layout_weight="1">
 
                 <TextView
+                    android:id="@+id/btn_Mosavi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
