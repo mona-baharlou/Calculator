@@ -8,32 +8,48 @@
     android:weightSum="9"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txt_Expression"
-        android:layout_width="wrap_content"
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scrollView_txtExpression"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-        android:maxLines="1"
-        android:text="12.536"
-        android:textAlignment="viewEnd"
-        android:textColor="?attr/colorOnPrimary"
-        android:textSize="@dimen/textView_text_big" />
+        android:scrollbars="none">
 
-    <TextView
-        android:id="@+id/txt_Result"
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/txt_Expression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="@dimen/textView_text_big" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontal_scrollView_txtResult"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="8dp"
-        android:maxLines="1"
-        android:text="=12.536"
-        android:textAlignment="viewEnd"
-        android:textSize="@dimen/textView_text_small" />
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/txt_Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:textSize="@dimen/textView_text_small" />
+    </HorizontalScrollView>
 
     <View
         android:layout_width="match_parent"
@@ -71,7 +87,7 @@
                 android:textSize="@dimen/button_text_size_small" />
 
             <Button
-                android:id="@+id/btn_ParantezBaz"
+                android:id="@+id/btn_OpenParantez"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -101,7 +117,7 @@
                  android:textSize="@dimen/button_text_size_small" />
  -->
             <Button
-                android:id="@+id/btn_ParantezBaste"
+                android:id="@+id/btn_ClosedParantez"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -111,7 +127,7 @@
                 android:textSize="@dimen/button_text_size_small" />
 
             <Button
-                android:id="@+id/btn_Taqsim"
+                android:id="@+id/btn_Division"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -157,7 +173,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
-                android:id="@+id/btn_Zarb"
+                android:id="@+id/btn_Multiplection"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -203,7 +219,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
-                android:id="@+id/btn_Menha"
+                android:id="@+id/btn_Minus"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -249,7 +265,7 @@
                 android:textSize="@dimen/button_text_size_big" />
 
             <Button
-                android:id="@+id/btn_Jam"
+                android:id="@+id/btn_Sum"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -311,7 +327,7 @@
                 android:layout_weight="1">
 
                 <TextView
-                    android:id="@+id/btn_Mosavi"
+                    android:id="@+id/btn_Equal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
