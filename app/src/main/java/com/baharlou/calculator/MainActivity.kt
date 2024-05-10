@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDot.setOnClickListener() {
 
-            if (binding.txtExpression.text.isEmpty()) {
+            if (binding.txtExpression.text.isEmpty() || binding.txtResult.text.isNotEmpty()) {
                 appendText("0.")
             } else if (!binding.txtExpression.text.contains("."))
                 appendText(".")
